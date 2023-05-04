@@ -36,7 +36,7 @@ def main() :
 
 	print("*** Subway Report for Seoul on March 2023 ***")
 	for i in range(1, 5) :
-		print("Line", i)
+		print("Line ", i, ":", sep = '')
 		print(f"Busiest Station: {mx_usages[i][1]} ({mx_usages[i][0]})")
 		print(f"Least used Station: {mn_usages[i][1]} ({mn_usages[i][0]})")
 	f.close()
