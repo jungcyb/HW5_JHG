@@ -36,11 +36,11 @@ def main() :
 	print("*** Annual Temperature Report for Seoul in 2022 ***")
 	for day in mx_same :
 		print(f"Day with the Largest Temperature Variation: {day}")
-	print(f"Maximum Temperature Difference: {round(mx_diff, 2):.2f} Celsius")
+	print(f"Maximum Temperature Difference: {round(mx_diff, 1):.1f} Celsius")
 
 	for day in mn_same :
 		print(f"Day with the Smallest Temperature Variation: {day}")
-	print(f"Minimum Temperature Difference: {round(mn_diff, 2):.2f} Celsius")
+	print(f"Minimum Temperature Difference: {round(mn_diff, 1):.1f} Celsius")
 
 
 
